@@ -36,6 +36,6 @@ Siga os passos a seguir:
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
 
 ## Referencias:
-https://dronebotworkshop.com/esp32cam-robot-car/
-https://www.arducam.com/esp32-machine-vision-learning-guide/
-https://github.com/fustyles/Arduino
+- https://dronebotworkshop.com/esp32cam-robot-car/
+- https://www.arducam.com/esp32-machine-vision-learning-guide/
+- https://github.com/fustyles/Arduino
