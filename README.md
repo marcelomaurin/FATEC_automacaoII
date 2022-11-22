@@ -28,6 +28,7 @@ Dabble ESP32
 
 
 ## Pinout
+<img src="">
 
 ## Referencias:
 https://dronebotworkshop.com/esp32cam-robot-car/
