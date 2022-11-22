@@ -25,7 +25,12 @@ Grove - Motor Driver TB66112FNG
 Dabble ESP32 
 
 ## Instalação
-
+Siga os passos a seguir:
+1) Instale o arduino IDE em sua maquina.
+2) Baixe a placa ESP32 para o arduino
+3) Instale as bibliotecas do arduino
+4) Selecione o arduino correto
+5) Compile e instale o esp correto.
 
 ## Pinout
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
