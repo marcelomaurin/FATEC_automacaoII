@@ -21,8 +21,8 @@ Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 - App Dabble para Celular
 
 ## Bibliotecas do arduino
-Grove - Motor Driver TB66112FNG
-Dabble ESP32 
+- Grove - Motor Driver TB66112FNG
+- Dabble ESP32 
 
 ## Instalação
 Siga os passos a seguir:
