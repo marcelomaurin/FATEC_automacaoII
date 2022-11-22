@@ -37,3 +37,4 @@ Siga os passos a seguir:
 
 ## Referencias:
 https://dronebotworkshop.com/esp32cam-robot-car/
+https://www.arducam.com/esp32-machine-vision-learning-guide/
