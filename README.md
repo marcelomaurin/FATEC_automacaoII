@@ -12,7 +12,7 @@ Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 - Marcelo Maurin Martins
 - Bruna
 - Ana Carolina  
-- Kleber
+- Kleber Antonio Jorge Francisco
 
 ## Pré requisitos
 Arduino IDE
