@@ -109,7 +109,7 @@ void robot_back()
   digitalWrite(RIGHT_M0,LOW);
   digitalWrite(RIGHT_M1,HIGH);
   move_interval=250;
-   previous_time = millis();  
+  previous_time = millis();  
 }
  
 void robot_right()
@@ -119,7 +119,7 @@ void robot_right()
   digitalWrite(RIGHT_M0,HIGH);
   digitalWrite(RIGHT_M1,LOW);
   move_interval=100;
-   previous_time = millis();
+  previous_time = millis();
 }
  
 void robot_left()
@@ -129,7 +129,7 @@ void robot_left()
   digitalWrite(RIGHT_M0,LOW);
   digitalWrite(RIGHT_M1,HIGH);
   move_interval=100;
-   previous_time = millis();
+  previous_time = millis();
 }
 
 void Le_Dable()
