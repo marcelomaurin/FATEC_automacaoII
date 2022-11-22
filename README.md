@@ -11,7 +11,7 @@ Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 ## Equipe do projeto
 - Marcelo Maurin Martins
 - Bruna M F Barbosa
-- Ana Carolina  
+- Ana Carolina Carvalho 
 - Kleber Antonio Jorge Francisco
 
 ## Pré requisitos
