@@ -11,7 +11,7 @@ Sistemas Biomédicos
 Tecnologia de Automação II
 
 ## Professor Orientador
-Prof. Dr. Marcello Claudio de Golveia Duarte
+<a href="http://www.fatecrp.edu.br/profissionais/prof-marcello-claudio-de-gouvea-duarte/">Prof. Dr. Marcello Claudio de Golveia Duarte</a>
 
 ## Objetivo:
 Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
