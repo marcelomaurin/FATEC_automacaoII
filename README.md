@@ -1,7 +1,8 @@
 # Trabalho de Conclusão de Disciplina Sistemas de Automação II
 
 ## Faculdade: 
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/fatecrp.jpeg">Fatec Ribeirão Preto
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/fatecrp.jpeg">
+Fatec Ribeirão Preto
 ## Curso: 
 Sistemas Biomédicos
 
