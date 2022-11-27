@@ -5,6 +5,9 @@
 ## Curso: 
 Sistemas Biomédicos
 
+## Professor Orientador
+Prof. Marcelo Claudio de Golveia Duarte
+
 ## Objetivo:
 Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 
