@@ -54,6 +54,13 @@ Siga os passos a seguir:
 ### Esquematico das ligações eletricas
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico%20Eletrico.jpg">
 
+## Screens
+
+### Visão Lateral
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/visao%20lateral.jpeg">
+
+
+
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
 - https://www.arducam.com/esp32-machine-vision-learning-guide/
