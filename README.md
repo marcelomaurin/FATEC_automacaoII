@@ -44,8 +44,6 @@ Siga os passos a seguir:
 - Ponte H TB6612FNG ou L298N
 - ESP32 ou ESP32CAM
 
-
-
 ## Pinout
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
 
