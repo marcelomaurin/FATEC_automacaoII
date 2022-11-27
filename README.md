@@ -74,14 +74,27 @@ Siga os passos a seguir:
 #### Especificações técnicas do Componente
 
 Entrada Maxima de tensão: 26V
+
 Saída: 5V
+
 Corrente Maxima 5A na Saída.
 
-### Bateria 3.4V
+### Bateria Recarregavel 4.2V
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/bateria.jpeg">
 
 #### Especificações técnicas do Componente
 
+Especificações das Baterias
+
+Tensão: 4,2v
+
+Capacidade 9800mAh
+
+Ponto de Proteção de Sobrecarga: 4,2v
+
+Ponto de Proteção de Descarga: 2,7v
+
+Medidas: 1,8cm x 6,5cm
 
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
