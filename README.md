@@ -56,6 +56,9 @@ Siga os passos a seguir:
 
 ## Screens
 
+### Carrinho Visão Superior
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/carrinho.jpeg">
+
 ### Visão Lateral
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/visao%20lateral.jpeg">
 
