@@ -5,6 +5,9 @@
 ## Curso: 
 Sistemas Biomédicos
 
+### Disciplina 
+Tecnologia de Automação II
+
 ## Professor Orientador
 Prof. Dr. Marcello Claudio de Golveia Duarte
 
