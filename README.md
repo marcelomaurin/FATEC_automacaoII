@@ -52,7 +52,7 @@ Siga os passos a seguir:
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Diagrama%20sem%20nome.jpg">
 
 ### Esquematico das ligações eletricas
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Diagrama%20sem%20nome.jpg">
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico%20Eletrico.jpg">
 
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
