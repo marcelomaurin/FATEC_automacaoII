@@ -68,6 +68,19 @@ Siga os passos a seguir:
 ### Visão Lateral
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/visao%20lateral.jpeg">
 
+### Componente SBEC-26v
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/sbec-26v_1__4.jpg">
+
+#### Especificações técnicas do Componente
+
+Entrada Maxima de tensão: 26V
+Saída: 5V
+Corrente Maxima 5A na Saída.
+
+### Bateria 3.4V
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/bateria.jpeg">
+
+#### Especificações técnicas do Componente
 
 
 ## Referencias:
