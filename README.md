@@ -84,17 +84,15 @@ Corrente Maxima 5A na Saída.
 
 #### Especificações técnicas do Componente
 
-Especificações das Baterias
+- Tensão: 4,2v
 
-Tensão: 4,2v
+- Capacidade 9800mAh
 
-Capacidade 9800mAh
+- Ponto de Proteção de Sobrecarga: 4,2v
 
-Ponto de Proteção de Sobrecarga: 4,2v
+- Ponto de Proteção de Descarga: 2,7v
 
-Ponto de Proteção de Descarga: 2,7v
-
-Medidas: 1,8cm x 6,5cm
+- Medidas: 1,8cm x 6,5cm
 
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
