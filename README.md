@@ -94,6 +94,26 @@ Corrente Maxima 5A na Saída.
 
 - Medidas: 1,8cm x 6,5cm
 
+### Motor DC com redução
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/bateria.jpeg">
+
+#### Especificações técnicas do Componente
+
+<b>CARACTERÍSTICAS:</b>
+- Roda com motor;
+- Caixa de Redução Acoplado perfeitamente;
+- Pneu em borracha, o que evita derrapagens;
+- Alimentação por corrente continua DC.
+
+<b>ESPECIFICAÇÕES:</b>
+- Marca: Smartcomp
+- Tensão do motor: 3 a 6V;
+- Diâmetro dos pneu: 64mm;
+- Largura dos pneu: 2,5cm;
+- Relação de redução 48:1;
+- Rotações: 200RPM (6V);
+- Peso: 68g.
+
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
 - https://www.arducam.com/esp32-machine-vision-learning-guide/
