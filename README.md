@@ -95,7 +95,7 @@ Corrente Maxima 5A na Saída.
 - Medidas: 1,8cm x 6,5cm
 
 ### Motor DC com redução
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/bateria.jpeg">
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/rodas2.jpg">
 
 #### Especificações técnicas do Componente
 
