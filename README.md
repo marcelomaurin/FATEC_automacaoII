@@ -24,8 +24,6 @@ Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 
 ## Pré requisitos
 - Arduino IDE
-- ESP32
-- Ponte H - TB6612FNG ou L298N
 - App Dabble para Celular
 - Lista de Materiais 
 
