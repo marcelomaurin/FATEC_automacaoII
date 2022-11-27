@@ -48,7 +48,7 @@ Siga os passos a seguir:
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
 
 ## Esquematico Elétrico
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Diagrama%20sem%20nome.jpg">
 
 
 ## Referencias:
