@@ -36,7 +36,7 @@ Siga os passos a seguir:
 
 ## Lista de Materiais
 - Base de apoio em acrilico com chanfros para fixação dos motores.
-- 4x Rodas com caixa de 
+- 4x Motor Dc 3-6v Com Caixa De Redução E Eixo Duplo + Roda 68mm
 - Conversor de corrente DC/DC 26v/5v Turnigy SBEC 26V
 - 3 Baterias SD 18650 4.2V 98000mAh
 - Case para 3 baterias SD18650 4.2V
@@ -46,6 +46,10 @@ Siga os passos a seguir:
 
 ## Pinout
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
+
+## Esquematico Elétrico
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
+
 
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
