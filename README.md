@@ -179,13 +179,20 @@ Corrente Maxima 5A na Saída.
 - Alimentação por corrente continua DC.
 
 <b>ESPECIFICAÇÕES:</b>
+
 - Marca: Smartcomp
+ 
 - Tensão do motor: 3 a 6V;
+
 - Diâmetro dos pneu: 64mm;
+
 - Largura dos pneu: 2,5cm;
+
 - Relação de redução 48:1;
+
 - Rotações: 200RPM (6V);
-- Peso: 68g.
+
+- Peso: 68g. 
 
 ## Referencias:
 - https://dronebotworkshop.com/esp32cam-robot-car/
