@@ -79,10 +79,7 @@ Saída: 5V
 
 Corrente Maxima 5A na Saída.
 
-### ESP32 CAM
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/pinout%20esp32cam.jpg">
 
-#### Especificações técnicas do Componente
 
 ### Bateria Recarregavel 4.2V
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/bateria.jpeg">
