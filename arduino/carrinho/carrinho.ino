@@ -9,6 +9,10 @@
 #define CUSTOM_SETTINGS
 #define INCLUDE_GAMEPAD_MODULE
 #include <DabbleESP32.h>
+#include <WiFi.h>
+
+const char* ssid = "carrinho";
+const char* password = "1234567890";
 
 //PINOUT
 // TB6612FNG H-Bridge Connections (both PWM inputs driven by GPIO 12)
@@ -38,97 +42,115 @@ void update_speed();
 unsigned int get_speed(unsigned int sp);
 
 
+
 void Start_PonteH()
 {
-    // Pins for Motor Controller
-    pinMode(LEFT_M0,OUTPUT);
-    pinMode(LEFT_M1,OUTPUT);
-    pinMode(RIGHT_M0,OUTPUT);
-    pinMode(RIGHT_M1,OUTPUT);
-    robot_stop();
-    
-     // Motor uses PWM Channel 8
-    ledcAttachPin(MTR_PWM, 8);
-    ledcSetup(8, 2000, 8);      
-    ledcWrite(8, 130);
+  // Pins for Motor Controller
+  pinMode(LEFT_M0, OUTPUT);
+  pinMode(LEFT_M1, OUTPUT);
+  pinMode(RIGHT_M0, OUTPUT);
+  pinMode(RIGHT_M1, OUTPUT);
+  robot_stop();
+
+  // Motor uses PWM Channel 8
+  ledcAttachPin(MTR_PWM, 8);
+  ledcSetup(8, 2000, 8);
+  ledcWrite(8, 130);
 }
 
 void Start_Serial()
 {
-   
+
   Serial.begin(115200);      // make sure your Serial Monitor is also set at this baud rate.
 }
 
+
 void Start_Dabble()
-{  
+{
   Dabble.begin("carrinho");       //set bluetooth name of your device
 }
 
-void setup() 
+void Start_Wifi()
 {
- Start_Serial();
- Start_Dabble();
- Start_PonteH();
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+
+
+}
+
+void setup()
+{
+  Start_Serial();
+  Start_Wifi();
+  Start_Dabble();
+  Start_PonteH();
+
 }
 
 void update_speed()
-{  
-    ledcWrite(motorPWMChannnel, get_speed(motor_speed));
-    
+{
+  ledcWrite(motorPWMChannnel, get_speed(motor_speed));
+
 }
 
 unsigned int get_speed(unsigned int sp)
 {
   return map(sp, 0, 100, 0, 255);
 }
- 
+
 
 
 void robot_stop()
 {
-  digitalWrite(LEFT_M0,LOW);
-  digitalWrite(LEFT_M1,LOW);
-  digitalWrite(RIGHT_M0,LOW);
-  digitalWrite(RIGHT_M1,LOW);
+  digitalWrite(LEFT_M0, LOW);
+  digitalWrite(LEFT_M1, LOW);
+  digitalWrite(RIGHT_M0, LOW);
+  digitalWrite(RIGHT_M1, LOW);
 }
- 
+
 void robot_fwd()
 {
-  digitalWrite(LEFT_M0,HIGH);
-  digitalWrite(LEFT_M1,LOW);
-  digitalWrite(RIGHT_M0,HIGH);
-  digitalWrite(RIGHT_M1,LOW);
-  move_interval=250;
-  previous_time = millis();  
-}
- 
-void robot_back()
-{
-  digitalWrite(LEFT_M0,LOW);
-  digitalWrite(LEFT_M1,HIGH);
-  digitalWrite(RIGHT_M0,LOW);
-  digitalWrite(RIGHT_M1,HIGH);
-  move_interval=250;
-  previous_time = millis();  
-}
- 
-void robot_right()
-{
-  digitalWrite(LEFT_M0,LOW);
-  digitalWrite(LEFT_M1,HIGH);
-  digitalWrite(RIGHT_M0,HIGH);
-  digitalWrite(RIGHT_M1,LOW);
-  move_interval=100;
+  digitalWrite(LEFT_M0, HIGH);
+  digitalWrite(LEFT_M1, LOW);
+  digitalWrite(RIGHT_M0, HIGH);
+  digitalWrite(RIGHT_M1, LOW);
+  move_interval = 250;
   previous_time = millis();
 }
- 
+
+void robot_back()
+{
+  digitalWrite(LEFT_M0, LOW);
+  digitalWrite(LEFT_M1, HIGH);
+  digitalWrite(RIGHT_M0, LOW);
+  digitalWrite(RIGHT_M1, HIGH);
+  move_interval = 250;
+  previous_time = millis();
+}
+
+void robot_right()
+{
+  digitalWrite(LEFT_M0, LOW);
+  digitalWrite(LEFT_M1, HIGH);
+  digitalWrite(RIGHT_M0, HIGH);
+  digitalWrite(RIGHT_M1, LOW);
+  move_interval = 100;
+  previous_time = millis();
+}
+
 void robot_left()
 {
-  digitalWrite(LEFT_M0,HIGH);
-  digitalWrite(LEFT_M1,LOW);
-  digitalWrite(RIGHT_M0,LOW);
-  digitalWrite(RIGHT_M1,HIGH);
-  move_interval=100;
+  digitalWrite(LEFT_M0, HIGH);
+  digitalWrite(LEFT_M1, LOW);
+  digitalWrite(RIGHT_M0, LOW);
+  digitalWrite(RIGHT_M1, HIGH);
+  move_interval = 100;
   previous_time = millis();
 }
 
