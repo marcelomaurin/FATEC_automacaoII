@@ -28,7 +28,7 @@ Controlar um carrinho com APP DABBLE e usando uma ponte H, conectada a um ESP32.
 - Lista de Materiais 
 
 ## Bibliotecas do arduino
-- Grove - Motor Driver TB66112FNG
+- Grove - Motor Driver TB66112FNG 
 - Dabble ESP32 
 
 
@@ -48,7 +48,7 @@ Siga os passos a seguir:
 - Case para 3 baterias SD18650 4.2V
 - 2 Placas fenolitica perfuradas com pinos para montagem de quadro de distribuição
 - Ponte H TB6612FNG ou L298N
-- ESP32 ou ESP32CAM
+- ESP32 wroom-32 ou ESP32CAM
 
 ## Pinout
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
