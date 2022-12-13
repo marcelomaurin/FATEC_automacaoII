@@ -52,6 +52,10 @@ Siga os passos a seguir:
 
 ## Pinout
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
+ESP32CAM
+
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/esp32%20wroom32.png">
+ESP32 wroom-32
 
 ## Esquematico Elétrico
 ### Esquematico da alimentação
