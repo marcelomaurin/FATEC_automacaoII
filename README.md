@@ -54,8 +54,6 @@ Siga os passos a seguir:
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico.png?raw=true">
 ESP32CAM
 
-<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/esp32%20wroom32.png">
-ESP32 wroom-32
 
 ## Esquematico Elétrico
 ### Esquematico da alimentação
@@ -165,6 +163,10 @@ Corrente Maxima 5A na Saída.
 
 - Weight	10g
 
+### ESP32 wroom-32
+
+<img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/esp32%20wroom32.png">
+PINOUT ESP32 wroom-32
 
 
 
