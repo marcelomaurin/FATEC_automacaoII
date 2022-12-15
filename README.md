@@ -62,6 +62,12 @@ ESP32CAM
 ### Esquematico das ligações eletricas
 <img src="https://github.com/marcelomaurin/FATEC_automacaoII/blob/main/imgs/Esquematico%20Eletrico.jpg">
 
+## Vídeos
+
+<a href="https://www.youtube.com/shorts/NPK-G5N4e1g"> Carrinho no chão sem alimentação externa</a>
+
+<a href="https://www.youtube.com/watch?v=LqsOSozqdyU"> Carrinho com alimentação externa</a>
+
 ## Screens
 
 ### Carrinho Visão Superior
